@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="card" onmouseover="showtext()">
+      <div id="left">Aditya Murti</div>
+    </div>
+    <script>
+      function showtext() {
+        var rd = document.getElementsByClassName("right");
+        if (!rd) {
+          var hidden = document.getElementById("card");
+          var newdiv = document.createElement("div");
+          newdiv.className = "right";
+
+          var text = document.createTextNode(
+            "sajgh weguwegf uwgef uwefg uwfg uwf uwf wuefy weyft wuet efytuweft euw y"
+          );
+          newdiv.appendChild(text);
+
+          hidden.appendChild(newdiv);
+
+          console.log("ddf");
+        }
+      }
+    </script>
+    <style>
+      #card {
+        display: flex;
+        flex-direction: row;
+        width: 400px;
+        height: 200px;
+      }
+      .left {
+        background-color: red;
+      }
+
+      .right {
+        background-color: yellow;
+        transition: 0.2s;
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:display=swap');
+body {
+    background-image: url("../event_asset/3274408.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+
+/*-----------Header----------------*/
+
+#note {
+    color: red;
+    font-size: 20px;
+}
+
+#header {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+#header a {
+    text-decoration: none;
+    float: left;
+    padding-left: 18px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: black;
+    text-align: center;
+}
+
+#header a img {
+    margin-top: 8px;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+#right-logo {
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+
+
+/*------------------first banner----------------*/
+
+#event-head {
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+#head {
+    text-align: center;
+    font-size: 40px;
+    line-height: 10px;
+    color: white;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+#content {
+    color: white;
+    font-size: 20px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+.card {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    width: 200px;
+}
+
+.card-header img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+    height: 200px;
+    text-align: center;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+#head1 {
+    font-size: 15px;
+    font-weight: 550;
+    height: 150px;
+    padding: 10px 5px 10px 5px;
+    overflow: hidden;
+}
+
+.tag {
+    border-radius: 50px;
+    font-size: 15px;
+    margin: 0;
+    font-weight: 700;
+    color: blue;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.tag-purple {
+    background-color: #5e76bf;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+.tag-pink {
+    background-color: #cd5b9f;
+}
+
+.card-body p {
+    font-size: 13px;
+    margin: 0 0 40px;
+}
+
+.user {
+    display: flex;
+    margin-top: auto;
+}
+
+.user img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.user-info h5 {
+    margin: 0;
+}
+
+.user-info small {
+    color: #545d7a;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+.robotics-container {
+    height: 300px;
+    top: 50px;
+    background-color: yellow;
+    padding: 10px;
+    background-image: url("../event_asset/Lost-Judgment_20211009005011-scaled.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.synergy-container {
+    background-image: url("../event_asset/drone-2724257_1920.jpg");
+    background-size: cover;
+    height: 300px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+.equinox-container {
+    background-image: url("../event_asset/coding-1853305_1920.jpg");
+    background-size: cover;
+    height: 300px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.aeronautics-container {
+    background-image: url("../event_asset/plane-3171633_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+.design-container {
+    background-image: url("../event_asset/painting-911804_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.pharma-container {
+    background-image: url("../event_asset/medicine-1309148_1920.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+.literary-container {
+    background-image: url("../event_asset/book-1052014_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.lan-container {
+    background-image: url("../event_asset/fujimura-and-filipino-champ.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+.open-container {
+    background-image: url("../event_asset/mandalas-1084082_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.mrc-container {
+    background-image: url("../event_asset/book-1052014_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+#but {
+    padding: 7px;
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 33%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+#home1 {
+    margin-left: 150px;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+
+/*--------------------footer start-------------------------*/
+
+.footer {
+    height: 130px;
+    margin-top: 20px;
+    background-color: rgb(17, 17, 51);
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left {
+    background-color: rgb(17, 17, 51);
+    padding-left: 10px;
+}
+
+.middle {
+    background-color: grey;
+    transform: skew(20deg);
+}
+
+.right {
+    background-color: rgb(17, 17, 51);
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+#college_name {
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+    transform: skew(-20deg);
+}
+
+#address1 {
+    font-size: 18px;
+    color: rgb(24, 23, 23);
+    font-weight: 600;
+    text-align: center;
+    transform: skew(-20deg);
+}
+
+#address2 {
+    font-size: 18px;
+    color: rgb(24, 23, 23);
+    font-weight: 600;
+    text-align: center;
+    transform: skew(-20deg);
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+#t_email {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 40px;
+}
+
+#t_site {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+}
+
+#t_pres {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 17px;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+#pres_num {
+    color: white;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+#pres_con {
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+}
+
+#t_sec {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */
+
+#sec_con {
+    font-size: 18px;
+    color: white;
+    font-style: italic;
+}
+
+
+/*----------------footer end -----------------------*/
+
+
+/*   Media queries for mobile   */
+
+@media only screen and (max-width: 600px) {
+    #note {
+        color: red;
+        font-size: 17px;
+        margin-top: 70px;
+    }
+    .robotics-container {
+        height: 300px;
+        top: 50px;
+        background-color: yellow;
+        padding: 10px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    #header {
+        position: absolute;
+        top: 0px;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        height: 70px;
+    }
+    #home1 {
+        margin-left: 4px;
+    }
+    /* Designed and Developed By Amit Verma on 4/12/22  */
+    #header a {
+        text-decoration: none;
+        display: inline-block;
+        padding-left: 3px;
+        font-size: 12px;
+        font-weight: 700;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        color: black;
+        text-align: center;
+    }
+    #aaa {
+        margin-top: 8px;
+        width: 90px;
+        height: 40px;
+    }
+    #right-logo img {
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        width: 30px;
+        height: 30px;
+    }
+    /* Designed and Developed By Amit Verma on 4/12/22  */
+    #content {
+        color: white;
+        font-size: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /*  --------------responsive footer----------------------*/
+    .footer {
+        height: 160px;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    .footer>.middle {
+        order: 3;
+        flex: 1;
+        transform: skew(0deg);
+        padding: 13px;
+    }
+    .footer>.left {
+        order: 1;
+    }
+    .footer>.right {
+        order: 2;
+    }
+    /* Designed and Developed By Amit Verma on 4/12/22  */
+    #college_name {
+        color: red;
+        font-size: 17px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 20px;
+        transform: skew(0deg);
+    }
+    #address1 {
+        font-size: 15px;
+        color: rgb(24, 23, 23);
+        font-weight: 600;
+        text-align: center;
+        transform: skew(0deg);
+    }
+    #address2 {
+        font-size: 15px;
+        color: rgb(24, 23, 23);
+        font-weight: 600;
+        text-align: center;
+        transform: skew(0deg);
+    }
+    /* Designed and Developed By Amit Verma on 4/12/22  */
+    #t_email {
+        font-size: 18px;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    #t_site {
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        font-weight: 600;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    #t_pres {
+        color: white;
+        font-size: 17px;
+        font-weight: 700;
+        padding-top: 20px;
+        text-align: center;
+    }
+    /* Designed and Developed By Amit Verma on 4/12/22  */
+    #pres_con {
+        font-size: 15px;
+        color: white;
+        font-style: italic;
+        text-align: center;
+    }
+    #t_sec {
+        color: white;
+        font-size: 17px;
+        font-weight: 700;
+        text-align: center;
+    }
+    #sec_con {
+        font-size: 15px;
+        color: white;
+        font-style: italic;
+        text-align: center;
+    }
+}
+
+
+/* Designed and Developed By Amit Verma on 4/12/22  */

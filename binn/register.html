@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+
+    <link rel="stylesheet" href="register.css" />
+  </head>
+  <body>
+    <div class="form_wrapper">
+      <form action="register.php" method="POST">
+        <input type="text" name="name" placeholder="Name" />
+
+        <p>Gender:</p>
+        <input type="radio" name="gender" value="Male" checked />
+        <label for="html">Male</label><br />
+        <input type="radio" name="gender" value="Female" />
+        <label for="css">Female</label><br />
+
+        <input type="email" name="email" placeholder="Email" />
+        <input type="text" name="college" placeholder="College Name" />
+        <input type="number" name="roll" placeholder="Roll No" />
+        <br />
+        <select name="branch">
+          <option>Branch</option>
+          <option>CS</option>
+          <option>IT</option>
+          <option>Mechanical</option>
+          <option>EC</option>
+          <option>EN</option>
+          <option>B.Pharma</option>
+          <option>Other</option>
+        </select>
+        <br /><br />
+        <select name="year">
+          <option>Year</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+        </select>
+
+        <br />
+        <br />
+        <select>
+          <option>Individual Event</option>
+          <option>Chess</option>
+          <option>BGMI</option>
+          <option>C Experts</option>
+          <option>CAD</option>
+        </select>
+
+        <br />
+        <br />
+        <select>
+          <option>Team Event</option>
+          <option>Robo War</option>
+          <option>Car Race</option>
+          <option>C Experts</option>
+          <option>CAD</option>
+        </select>
+
+        <br />
+        <br />
+        <select>
+          <option>Open Event</option>
+          <option>Tech Gallery</option>
+          <option>PLC Design</option>
+        </select>
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>
