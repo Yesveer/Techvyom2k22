@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Gallery</title>
+
+    <meta http-equiv="Cache-control" content="public" />
+    <meta name="description" content="Techvyom gallery of Shri Ram Murti Smarak College of Engineering and Technology,Bareilly. Designed and developed by Amit Verma" />
+    <meta name="keywords" content="Techvyom 2022,techvyom,srms cet,techfest srms" />
+    <meta name="author" content="Amit Verma" />
+    <link rel="icon" href="assets/icons.ico" />
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <!-- <script>
+        $(function() {
+            $("#dialog").dialog({
+                dialogClass: "no-close success-dialog",
+                resizable: false,
+            });
+        });
+    </script>
+
+    <style>
+        .success-dialog {
+            background-color: transparent;
+            border: none;
+            overflow: hidden;
+            height: 500px;
+            width: 300px;
+        }
+    </style> -->
+</head>
+
+<body>
+
+    
+    <!----------Image Popup------------------------>
+    <!-- <div id="dialog">
+        <img src="dean.jpg" height="300px" width="300px" alt="" srcset="" />
+    </div> -->
+    <p id="head-gal">Image Gallery</p>
+    <div class="bg"></div>
+    <!--     
+ Author:Amit Verma
+ B.Tech C.S.E
+ Ph: 7505574391 -->
+
+    <div class="container">
+        <a data-bg="gallery/DSC_0005-min.JPG"><img class="lazy" src="gallery/DSC_0005-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/DSC_0018-min.JPG"><img class="lazy" src="gallery/DSC_0018-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/DSC_0025-min.JPG"><img class="lazy" src="gallery/DSC_0025-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/DSC_0032-min.JPG"><img class="lazy" src="gallery/DSC_0032-min.JPG" height="200px" width="300px" /></a>
+
+        <a data-bg="gallery/_DSC3659-min.JPG"><img class="lazy" src="gallery/_DSC3659-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC3664-min.JPG"><img class="lazy" src="gallery/_DSC3664-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC3669-min.JPG"><img class="lazy" src="gallery/_DSC3669-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC3685-min.JPG"><img class="lazy" src="gallery/_DSC3685-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC3701-min.JPG"><img class="lazy" src="gallery/_DSC3701-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC3775-min.JPG"><img class="lazy" src="gallery/_DSC3775-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC3787-min.JPG"><img class="lazy" src="gallery/_DSC3787-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC3790-min.JPG"><img class="lazy" src="gallery/_DSC3790-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC3797-min.JPG"><img class="lazy" src="gallery/_DSC3797-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC3823-min.JPG"><img class="lazy" src="gallery/_DSC3823-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC3909-min.JPG"><img class="lazy" src="gallery/_DSC3909-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC3963-min.JPG"><img class="lazy" src="gallery/_DSC3963-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC4012-min.JPG"><img class="lazy" src="gallery/_DSC4012-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC4019-min.JPG"><img class="lazy" src="gallery/_DSC4019-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC4156-min.JPG"><img class="lazy" src="gallery/_DSC4156-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC4241-min.JPG"><img class="lazy" src="gallery/_DSC4241-min.JPG" height="200px" width="300px" /></a>
+        <a data-bg="gallery/_DSC4407-min.JPG"><img class="lazy" src="gallery/_DSC4407-min.JPG" height="200px" width="300px" /></a>
+    </div>
+
+    <!--------------------------Footer---------------------------------->
+
+    <div class="footer">
+        <div class="left">
+            <p id="t_pres">Tyro President:</p>
+            <p id="pres_con">
+                Raunak Tiwari<span id="pres_num"> (8318892436)</span>
+            </p>
+
+            <p id="t_sec">Tyro Secretary:</p>
+            <p id="sec_con">Vanshika Gupta</p>
+        </div>
+        <!--     
+ Author:Amit Verma
+ B.Tech C.S.E
+ Ph: 7505574391 -->
+
+        <div class="middle">
+            <p id="college_name">
+                SHRI RAM MURTI SMARAK COLLEGE OF ENGINEERING AND TECHNOLOGY
+            </p>
+            <p id="address1">
+                Ram Murti Puram 13KM Nainital-Highway,Bareilly-243202
+            </p>
+
+            <p id="address2">
+                Phone:0581-252246,2582249,2582231-32, Fax: 0581-2582330
+            </p>
+        </div>
+        <div class="right">
+            <p id="t_email">E-mail: tyro@srmscet.edu</p>
+            <p id="t_site">Website: www.srms.ac.in</p>
+        </div>
+    </div>
+
+    <script>
+        const links = document.querySelectorAll(".container a");
+        const bg = document.querySelector(".bg");
+        const showClass = "bg-show";
+
+        for (const link of links) {
+            const img = new Image();
+            img.src = link.dataset.bg;
+
+            link.addEventListener("mouseenter", function() {
+                bg.style.backgroundImage = `url(${this.dataset.bg})`;
+                document.body.classList.add(showClass);
+            });
+
+            link.addEventListener("mouseleave", () => {
+                document.body.classList.remove(showClass);
+            });
+        }
+    </script>
+    <style>
+        /* Header
+      –––––––––––––––––––––––––––––––––––––––––––––––––– */
+        
+        #dialog img {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #head-gal {
+            font-size: 40px;
+            color: white;
+            font-weight: 700;
+            background-color: red;
+            padding: 10px;
+            text-align: center;
+            width: 400px;
+            margin: 0 auto;
+            margin-top: 4px;
+            border-radius: 0 10px 0 10px;
+        }
+        
+        #head-gal:hover {
+            width: 100%;
+        }
+        
+         :root {
+            --white: white;
+        }
+        
+        * {
+            padding: 0;
+            margin: 0;
+            /* background-color: rgba(128, 128, 128, 0.596);*/
+        }
+        
+        .container img {
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            border-radius: 10px;
+            background-color: pink;
+        }
+        
+        body {
+            font: 22px/1.5 sans-serif;
+        }
+        /* MAIN STYLES
+        –––––––––––––––––––––––––––––––––––––––––––––––––– */
+        
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, max-content);
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        
+        .container a {
+            position: relative;
+            transition: all 0.2s;
+        }
+        
+        .container a::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            height: 100%;
+            min-height: 30px;
+            transform: translate(-50%, -50%) scaleX(0);
+            padding: 10px;
+            z-index: -1;
+            transform-origin: 50%;
+            background: var(--white);
+        }
+        
+        .bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            opacity: 0;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            transition: all 0.3s ease-out;
+        }
+        
+        .bg-show .bg {
+            z-index: 1;
+            opacity: 1;
+        }
+        
+        .bg-show a:hover {
+            z-index: 2;
+            border-bottom-color: transparent;
+        }
+        
+        .bg-show .container a:hover::before {
+            transform: translate(-50%, -50%) scaleX(1);
+            transition: transform 0.2s 0.1s ease-out;
+        }
+        /*--------------------footer-------------------------*/
+        
+        .footer {
+            margin-top: 20px;
+            height: 130px;
+            background-color: blue;
+            display: grid;
+            grid-template-columns: 1fr 3fr 1fr;
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        .left {
+            background-color: blue;
+            padding-left: 10px;
+        }
+        
+        .middle {
+            background-color: white;
+            transform: skew(20deg);
+        }
+        
+        .right {
+            background-color: blue;
+        }
+        
+        #college_name {
+            color: red;
+            font-size: 20px;
+            font-weight: 700;
+            text-align: center;
+            padding-top: 20px;
+            transform: skew(-20deg);
+        }
+        
+        #address1 {
+            font-size: 18px;
+            color: rgb(24, 23, 23);
+            font-weight: 600;
+            text-align: center;
+            transform: skew(-20deg);
+        }
+        
+        #address2 {
+            font-size: 18px;
+            color: rgb(24, 23, 23);
+            font-weight: 600;
+            text-align: center;
+            transform: skew(-20deg);
+        }
+        
+        #t_email {
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+            padding-top: 40px;
+        }
+        
+        #t_site {
+            font-size: 18px;
+            color: white;
+            text-align: center;
+            font-weight: 600;
+        }
+        
+        #t_pres {
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+            padding-top: 17px;
+        }
+        
+        #pres_num {
+            color: white;
+            font-size: 13px;
+            margin-left: 5px;
+        }
+        
+        #pres_con {
+            font-size: 18px;
+            color: white;
+            font-style: italic;
+        }
+        
+        #t_sec {
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+        #sec_con {
+            font-size: 18px;
+            color: white;
+            font-style: italic;
+        }
+        /*---------------for mobile view----------------------*/
+        
+        @media only screen and (max-width: 600px) {
+            #head-gal {
+                font-size: 35px;
+                border-radius: 0 10px 0 10px;
+            }
+            .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                justify-content: space-around;
+                margin-top: 30px;
+            }
+            .container img {
+                box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+                border-radius: 10px;
+                height: 150px;
+                width: 230px;
+            }
+            /*  --------------responsive footer----------------------*/
+            .footer {
+                height: 160px;
+                background-color: blue;
+                display: flex;
+                flex-direction: column;
+                color: white;
+                font-family: "Poppins", sans-serif;
+            }
+            .footer>.middle {
+                order: 3;
+                flex: 1;
+                transform: skew(0deg);
+                padding: 13px;
+            }
+            .footer>.left {
+                order: 1;
+            }
+            .footer>.right {
+                order: 2;
+            }
+            #college_name {
+                color: red;
+                font-size: 17px;
+                font-weight: 700;
+                text-align: center;
+                padding-top: 20px;
+                transform: skew(0deg);
+            }
+            #address1 {
+                font-size: 15px;
+                color: rgb(24, 23, 23);
+                font-weight: 600;
+                text-align: center;
+                transform: skew(0deg);
+            }
+            #address2 {
+                font-size: 15px;
+                color: rgb(24, 23, 23);
+                font-weight: 600;
+                text-align: center;
+                transform: skew(0deg);
+            }
+            #t_email {
+                font-size: 18px;
+                color: white;
+                text-align: center;
+                font-weight: 600;
+                padding-top: 20px;
+            }
+            #t_site {
+                font-size: 15px;
+                color: white;
+                text-align: center;
+                font-weight: 600;
+                text-align: center;
+                padding-bottom: 10px;
+            }
+            #t_pres {
+                color: white;
+                font-size: 17px;
+                font-weight: 700;
+                padding-top: 20px;
+                text-align: center;
+            }
+            #pres_con {
+                font-size: 15px;
+                color: white;
+                font-style: italic;
+                text-align: center;
+            }
+            #t_sec {
+                color: white;
+                font-size: 17px;
+                font-weight: 700;
+                text-align: center;
+            }
+            #sec_con {
+                font-size: 15px;
+                color: white;
+                font-style: italic;
+                text-align: center;
+            }
+        }
+    </style>
+</body>
+
+</html>
